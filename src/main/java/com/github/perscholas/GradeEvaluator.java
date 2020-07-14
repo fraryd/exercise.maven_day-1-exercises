@@ -45,6 +45,21 @@ public class GradeEvaluator {
     }
 
     public Character getGrade(Double score) {
-        return null;
+        if (isGradeA(score)) {
+            return 'A';
+        }
+        else if (isGradeB(score)) {
+            return 'B';
+        }
+        else if(isGradeC(score)) {
+            return 'C';
+        }
+        else if (isGradeD(score)) {
+            return 'D';
+        }
+        else if (isGradeF(score)) {
+            return 'F';
+        }
+        return 'F';
     }
 }
