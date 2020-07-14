@@ -5,6 +5,10 @@ package com.github.perscholas;
  */
 public class GradeEvaluator {
     public Boolean isGradeA(Double score) {
+        if (score>=89)
+        {
+
+        }
         return null;
     }
 
