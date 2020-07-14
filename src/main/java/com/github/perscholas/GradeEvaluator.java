@@ -5,27 +5,43 @@ package com.github.perscholas;
  */
 public class GradeEvaluator {
     public Boolean isGradeA(Double score) {
-        if (score>=89)
-        {
-
+        if ((score >= 90) && (score <=100)) {
+            return true;
+        } else {
+            return false;
         }
-        return null;
     }
 
     public Boolean isGradeB(Double score) {
-        return null;
+        if ((score >= 80) && (score <=89)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public Boolean isGradeC(Double score) {
-        return null;
+        if ((score >= 70) && (score <=79)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public Boolean isGradeD(Double score) {
-        return null;
+        if ((score >= 65) && (score <=69)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public Boolean isGradeF(Double score) {
-        return null;
+        if ((score >= 0) && (score <=64)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public Character getGrade(Double score) {
